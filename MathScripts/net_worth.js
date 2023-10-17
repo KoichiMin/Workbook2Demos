@@ -1,4 +1,4 @@
-"strict mode"
+"use strict"
 
 var assets = "100000";
 var debts = " 50000";

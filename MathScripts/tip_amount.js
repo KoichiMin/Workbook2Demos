@@ -1,3 +1,5 @@
+"use strict"
+
 Bill = 100
 tip = 0.20
 

@@ -1,12 +1,12 @@
 "use strict"
 
-var annualRateOfReturn  = 6
+var annualRateOfReturn  = 6.2;
 
-var yearsToDouble = 72/annualRateOfReturn
+var yearsToDouble = (72/annualRateOfReturn).toFixed(1);
 
-var initialInvestment = 1000
+var initialInvestment = 1000.00;
 
-DoubledInvestment = initialInvestment * 2
+var DoubledInvestment = initialInvestment * 2;
 
 
-console.log("At a " + annualRateOfReturn + "interest rate, your savings account will be worth" + DoubledInvestment + " in " + yearsToDouble + " years")
+console.log("At a " + annualRateOfReturn + " interest rate, your savings account will be worth" + DoubledInvestment.toFixed(2) + " in " + yearsToDouble + " years");

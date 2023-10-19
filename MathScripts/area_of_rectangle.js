@@ -1,7 +1,7 @@
+"use strict"
 
 var length = 10
 var width = 5
-"use strict"
 
 
 var areaOfRectangle = length * width
